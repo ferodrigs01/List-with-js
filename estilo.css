@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
+div#app{
+    width: 900px;
+    text-align: center;
+    box-shadow: 1px 1px 5px #000;
+    margin: 10px auto;
+    background-color: #696969;
+    padding: 20px;
+    clear: both;
+    overflow: hidden;
+}
+div#app > h1{
+    padding: 20px;
+    color: #ddd;
+}
+div#app > ul{
+    list-style-type: none;
+    width: 50%;
+    margin: 50px auto;
+}
+div#app > ul > li{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color:#ddd;
+}
+div#app > ul > li::first-letter{
+    text-transform: uppercase;
+}
+div#app a{
+    text-decoration: none;
+    color:#fff;
+    padding: 0px;
+    float: right;
+    background-color: red;
+    color: #fff;
+    font-weight: bolder;
+    padding: 0 20px;
+}
+div#app > input{
+    float: left;
+    padding: 7px;
+    width: 300px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ddd;
+    color: #ddd;
+}
+div#app > input::placeholder{
+    color: #ddd;
+    text-align: center;
+}
+div#app > button{
+    float: left;
+    padding: 7px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ddd;
+    color:#696969;
+}
+div#app > button:hover{
+    cursor: pointer;
+}
